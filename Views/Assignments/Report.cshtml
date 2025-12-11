@@ -1,0 +1,33 @@
+﻿@model VanDongNguyen_FinalExam.Models.ProgressReportViewModel
+
+@{
+    ViewData["Title"] = "Progress Report";
+}
+
+<h1>Progress Report</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Total Assignments</th>
+        <td>@Model.TotalAssignments</td>
+    </tr>
+    <tr>
+        <th>Completed Assignments</th>
+        <td>@Model.CompletedAssignments</td>
+    </tr>
+    <tr>
+        <th>Average Grade</th>
+        <td>
+            @if (Model.AverageGrade.HasValue)
+            {
+                @Model.AverageGrade.Value.ToString("0.00")
+            }
+            else
+            {
+                <span>No assignments to calculate average.</span>
+            }
+        </td>
+    </tr>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>
