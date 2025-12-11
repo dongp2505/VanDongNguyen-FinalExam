@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36705.20 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanDongNguyen-FinalExam", "VanDongNguyen-FinalExam.csproj", "{C927D658-ACDF-4144-918C-7043E77DE3D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanDongNguyen_FinalExam", "..\VanDongNguyen_FinalExam\VanDongNguyen_FinalExam.csproj", "{81956D88-F0C7-440F-88FB-EF9890A157CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C927D658-ACDF-4144-918C-7043E77DE3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C927D658-ACDF-4144-918C-7043E77DE3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C927D658-ACDF-4144-918C-7043E77DE3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81956D88-F0C7-440F-88FB-EF9890A157CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81956D88-F0C7-440F-88FB-EF9890A157CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81956D88-F0C7-440F-88FB-EF9890A157CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81956D88-F0C7-440F-88FB-EF9890A157CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
