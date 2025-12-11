@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using VanDongNguyen_FinalExam.Models;
 
 namespace VanDongNguyen_FinalExam.Data
 {
@@ -9,5 +10,7 @@ namespace VanDongNguyen_FinalExam.Data
             : base(options)
         {
         }
+
+        public DbSet<Assignment> Assignments { get; set; }
     }
 }
